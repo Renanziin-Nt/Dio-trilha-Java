@@ -1,8 +1,7 @@
 import java.util.Scanner;
-import java.util.Locale;
 public class ContaTerminal {
     public static void main(String[] args){
-        try (Scanner scanner = new Scanner(System.in).useLocale(Locale.US)) {
+        try (Scanner scanner = new Scanner(System.in)) {
             System.out.println("Por favor, digite o Número: ");
             int numero = scanner.nextInt();
 
